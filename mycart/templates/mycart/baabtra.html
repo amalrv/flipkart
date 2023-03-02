@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="{% static 'image/download.png' %}" alt="">
+    <a href="{% url 'mycart:baabtraname' %}">baabtra</a>
+    <a href="{% url 'mycart:aboutname' %}">about</a>
+    <a href="{% url 'mycart:contactname' %}">contact</a>
+<table  width="50%" align="CENTER" >
+<tr><th colspan="3">BAABTRA <BR></BR></th></tr>
+<TR align="center"><td>
+    <a href="./index.html">HOME</a></td>
+<td>
+<a href="./about.html">ABOUT
+</td>
+</a>
+<td>
+    <a href="./contact.html">CONTACT</a>
+</td>
+</TR>
+
+
+
+</table>
+<H1 ALIGN="CENTER">COURSES PROVIDED</H1>
+<UL ALIGN="CENTER">
+    <li>PYTHON</li>
+    <img src="./download (1).jfif" alt="" height="55" width="55" align="">
+    <LI>JAVA</LI>
+    <img src="./download.png" alt="" height="80" width="100">
+    <LI>C++</LI>
+    <img src="./cpp.png" alt="" height="55" width="55">
+    <LI>PHP</LI>
+    <img src="./php.png" alt="" height="55" width="55">
+</UL>
+
+</body>
+</html>
